@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+}
+/*Configuracion pagina principal (Index.html)*/
+body {
+  background-color: #676767;
+}
+
+.titulo {
+  text-align: center;
+  color: blanchedalmond;
+}
+.card {
+  color: #333;
+  width: 180px;
+  height: 270px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.692);
+  background: #333;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: box-shadow 0.2s;
+}
+.card:hover {
+  background: chocolate;
+  box-shadow: 6px 2px 19px -3px rgba(0, 0, 0, 0.75);
+}
+.card button {
+  background: yellow;
+  color: #333;
+  border-radius: 20px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+/*Fin configuracion pagina principal (Index.html)*/
+
+/*Estilos Ejeccio validacion de Password*/
+
+.container_select {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+}
+.btn_select {
+  height: 30px;
+  width: 50px;
+  border-radius: 5px;
+}
+.tit_pass {
+  padding-top: 160px;
+  color: whitesmoke;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+button {
+  display: flex;
+  width: 80px;
+  height: 30px;
+  border-radius: 7px;
+}
+p {
+  padding-top: 80px;
+  text-align: center;
+  color: whitesmoke;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.boton_ingresar {
+  display: flex;
+  justify-content: center;
+}
+/*Fin Estilos Ejeccio validacion de Password*/
